@@ -3,7 +3,7 @@ import {StyleSheet} from "react-native"
 export const colors={
     black: '#000',
     white: '#fff',
-    whiteBackground: 'rgca(255,255,255,0.4)',
+    whiteBackground: 'rgba(255,255,255,0.4)',
     gray: '#ggg'
 }
 
