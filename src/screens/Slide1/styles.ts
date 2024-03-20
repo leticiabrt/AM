@@ -21,5 +21,11 @@ export const styles = StyleSheet.create({
     texto: {
         fontSize: 25,
         marginLeft: 120
+    },
+    ativado:{
+        backgroundColor: 'white'
+    },
+    desativado:{
+        backgroundColor: 'black'
     }
 })

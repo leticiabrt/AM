@@ -3,10 +3,11 @@ import { styles } from "./styles"
 
 interface IButton extends TouchableOpacityProps{
     onPressI: () => void
+    cor: boolean
 }
 
-export function ButtonSlide({onPressI}: IButton){
+export function ButtonSlide({onPressI, cor}: IButton){
     return(
-        <TouchableOpacity style={styles.ball} onPress={onPressI} />
+        <TouchableOpacity style={cor ? styles.ballCor : styles.ball } onPress={onPressI} />
     )
 }

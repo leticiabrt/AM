@@ -14,10 +14,10 @@ export function Slide2({setPageI}:IPagina) {
                     <Image source={img2} style={styles.image}></Image>
                 </View>
                 <View style={styles.botoes}>
-                    <ButtonSlide onPressI={() => setPageI(1)}/>
-                    <ButtonSlide onPressI={() => setPageI(2)}/>
-                    <ButtonSlide onPressI={() => setPageI(3)}/>
-                    <ButtonSlide onPressI={() => setPageI(4)}/>
+                    <ButtonSlide onPressI={() => setPageI(1)} cor={false}/>
+                    <ButtonSlide onPressI={() => setPageI(2)} cor={true}/>
+                    <ButtonSlide onPressI={() => setPageI(3)} cor={false}/>
+                    <ButtonSlide onPressI={() => setPageI(4)} cor={false}/>
 
                 </View>
                 

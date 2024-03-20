@@ -10,5 +10,15 @@ export const styles = StyleSheet.create({
         borderWidth: 2,
         borderColor: 'grey',
         flexDirection: 'row'
+    },
+    
+    ballCor: {
+        width: 30,
+        height: 30,
+        backgroundColor: 'white',
+        borderRadius: 15,
+        borderWidth: 2,
+        borderColor: 'grey',
+        flexDirection: 'row'
     }
 })

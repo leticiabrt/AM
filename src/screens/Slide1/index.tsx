@@ -15,10 +15,10 @@ export function Slide1({setPageI}:IPagina) {
                     <Text style={styles.texto}>NOSSO ESPAÇO</Text>
                 </View>
                 <View style={styles.botoes}>
-                    <ButtonSlide onPressI={() => setPageI(1)}/>
-                    <ButtonSlide onPressI={() => setPageI(2)}/>
-                    <ButtonSlide onPressI={() => setPageI(3)}/>
-                    <ButtonSlide onPressI={() => setPageI(4)}/>
+                    <ButtonSlide onPressI={() => setPageI(1)} cor={true}/>
+                    <ButtonSlide onPressI={() => setPageI(2)} cor={false}/>
+                    <ButtonSlide onPressI={() => setPageI(3)} cor={false}/>
+                    <ButtonSlide onPressI={() => setPageI(4)} cor={false}/>
                 </View>
             </View>
         </ImageBackground>
