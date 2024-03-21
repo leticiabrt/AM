@@ -10,8 +10,8 @@ export function Slide3({setPageI}:IPagina) {
     return (
         <ImageBackground source={fundo3} style={styleContainer.container}>
             <View style={styles.fundo}>
-                <View>
-                    <Image source={img3} style={styles.image}></Image>
+                <View style={styles.centralizar}>
+                    <Image source={img3}></Image>
                     <Text style={styles.texto}>ACESSAR</Text>
                 </View>
                 <View style={styles.botoes}>

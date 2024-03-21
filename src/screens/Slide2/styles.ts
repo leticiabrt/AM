@@ -10,16 +10,20 @@ export const styles = StyleSheet.create({
     botoes: {
         flexDirection: 'row',
         justifyContent: 'space-around',
-        marginTop: 220
+        alignItems: 'flex-end',
+        marginBottom: 15
     },
     image: {
-        marginTop: 90,
-        marginLeft: 50,
-        width: 300,
-        height: 500,
+        width: 200,
+        height: 300,
         borderRadius: 15,
     },
-    
+    centralizar: {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        flex: 1
+    }
 
     
 })

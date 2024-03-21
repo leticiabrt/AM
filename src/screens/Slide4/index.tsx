@@ -10,7 +10,7 @@ export function Slide4({setPageI}:IPagina) {
     return (
         <ImageBackground source={fundo4} style={styleContainer.container}>
             <View style={styles.fundo}>
-                <View>
+                <View style={styles.centralizar}>
                     <Image source={img3} style={styles.image}></Image>
                     <Text style={styles.texto}>FEEDBACK</Text>
                 </View>

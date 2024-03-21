@@ -10,7 +10,7 @@ export function Slide1({setPageI}:IPagina) {
     return (
         <ImageBackground source={fundo1} style={styleContainer.container}>
             <View style={styles.fundo}>
-                <View>
+                <View style={styles.centralizar}>
                     <Image source={img1} style={styles.image}></Image>
                     <Text style={styles.texto}>NOSSO ESPAÇO</Text>
                 </View>

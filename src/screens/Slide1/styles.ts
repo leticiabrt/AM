@@ -9,23 +9,27 @@ export const styles = StyleSheet.create({
     botoes: {
         flexDirection: 'row',
         justifyContent: 'space-around',
-        marginTop: 350
+        alignItems: 'flex-end',
+        marginBottom: 15
     },
     image: {
-        marginTop: 250,
-        marginLeft: 70,
         width: 250,
         height: 180,
         borderRadius: 15,
     },
     texto: {
-        fontSize: 25,
-        marginLeft: 120
+        fontSize: 25
     },
     ativado:{
         backgroundColor: 'white'
     },
     desativado:{
         backgroundColor: 'black'
+    },
+    centralizar: {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        flex: 1
     }
 })
